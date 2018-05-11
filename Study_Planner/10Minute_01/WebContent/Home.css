@@ -1,0 +1,66 @@
+html, body {margin: 0; }
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.day {
+width: 100px;
+height: 840px;
+float: left;
+background-color: #fff;
+background-image: linear-gradient(rgba(0,0,0,.08) 50%, transparent 50%);
+background-size: 1px 20%;
+}
+
+.day.time { width: 10%; }
+
+.day_title {
+width:60px;
+height:40px;
+background-color: #34495e;
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase;
+text-align: right;
+line-height: 40px;
+float:left;
+color:white;
+}
+
+.hour {
+height: 40px;
+background-color: rgba(52, 73, 94,0.9);
+font-size: 12px;
+text-align: center;
+line-height: 40px;
+color:white
+}
+
+.class {
+width: 60px;
+height: 40px; /*90min*/
+line-height: 40px;
+background-color: white;
+color: black;
+font-size: 10pt;
+font-weight: 300;
+padding-left: 10px;
+float:left;
+border:0.2px solid #6F6F6F;
+}
+
+.class:hover{
+  background-color:#D8D8D8;
+}
+
+div.scroll {
+  width:430px;
+  height:400px;
+  overflow: auto;
+  border: 1px solid black;
+}
+
+#weekly{
+	width:14.28%;  
+	border-right:2px solid grey;
+}

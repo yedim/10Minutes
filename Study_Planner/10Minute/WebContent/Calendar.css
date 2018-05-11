@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+
+h2{
+	text-align:center;
+}
+
+
+
+.toolbar{
+	text-align : center;
+}
+.calendar{
+	background-color: white;
+	border: 1px solid #e1e1e1;
+	font-family: Montserrat;
+  	font-weight: 100;
+  	color: #A8B2B9;
+}
+
+.calendar__week,
+.calendar__header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.calendar__week {
+  grid-auto-rows: 150px; /*«‡≥–¿Ã*/
+  text-align: left;
+}
+
+.calendar__header {
+text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+
+  grid-auto-rows: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.calendar__day {
+  padding: 16px;
+  border-right: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+}
